@@ -25,15 +25,9 @@
 */
 
 function CuboidMaker(attr) {
-  this.length = attr.length
-  this.width = attr.width
-  this.height = attr.height
-}
-
-function CuboidMaker(attr) {
-  this.length = attr.length
-  this.width = attr.width
-  this.height = attr.height
+  this.length = attr.length;
+  this.width = attr.width;
+  this.height = attr.height;
 }
 
 CuboidMaker.prototype.volume = function() {return this.length * this.width * this.height;};
